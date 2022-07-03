@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:memorable/presentation/screen/onboarding.dart';
-
-import 'common/constants.dart';
+import 'package:memorable/presentation/screen/onboarding/onboarding.dart';
 
 void main() {
   runApp(const App());
@@ -13,7 +11,6 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: Constants.AppName,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
